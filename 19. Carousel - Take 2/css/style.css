@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.main{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.slider-for, .slider-nav{
+    /* display: flex;     */
+}
+
+h3{
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    text-align: center;
+}

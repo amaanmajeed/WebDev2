@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header{
+    background-color: #333;
+    padding: 20px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topmenu{
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo p{
+    color: white;
+    font-size: 20px;
+}
+
+.menubar{
+    width: 70%;
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+

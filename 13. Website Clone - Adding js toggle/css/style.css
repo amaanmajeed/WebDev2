@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #2a2727;
+    padding: 4px 0;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.topmenu{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    color: white;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.menu{
+    width: 70%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: end;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    padding: 200px 0;
+    background-image: url(../images/sky.jpg);
+    background-size: cover;
+}
+.mainContent{
+    color: white;
+    text-align: center;
+}
+
+.mainContent h1{
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.mainContent p{
+    font-size: 55px;
+    margin: 40px;
+}
+
+.mainContent a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+}
+.btn{
+    margin-right: 20px;
+}
+
+.menu li a:hover{
+    background-color: #111;
+}
+
+/* Key Features */
+
+.keyFeatures{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.keyContiner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.singleImage img{
+    width: 80px;
+}
+
+.container{
+    width: 25%;
+    margin-bottom: 100px;
+}
+
+h2{
+    color: #646464;
+    text-align: center;
+    padding: 70px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3{
+    color: #acacac;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 15px 20px 0 0;
+}
+
+p{
+    font-size: 17px;
+}
+
+/* What People Say */
+
+.peopleSay{
+    background-color: #e6e6e6;
+}
+
+.whiteBox{
+    background-color: white;
+    padding: 15px;
+    margin: 7px;
+}
+
+.secondBox{
+    display: flex;
+}
+
+.usernameBox{
+    display: inline-block;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.usernameBox h3{
+    margin: 10px 10px 0 0;
+}
+
+
+.secondBox img{
+    width: 80px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #272525;
+    padding: 20px 20px 10px 20px;
+}
+.inner{
+    text-align: center;
+}
+
+.inner img{
+    width: 90px;
+    padding: 30px 30px 0 30px;
+}
+
+.footer p{
+    color: #595959;
+}
+
+/* Nav Handle */
+
+.mobile-menu {
+    /* height: 0px; */
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    /* display: block; */
+    height: 0;
+    overflow: hidden;
+    transition: height 2s;
+}
+.mobile-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.mobile-menu li {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2d2d2dd8;
+}
+
+.barli {
+    display: none;
+}
+
+
+.mobile-menu li:hover {
+    background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar{
+        padding: 4px 0;
+    }
+
+    .barli{
+        display: block;
+    }
+
+    .nli{
+        display: none;
+    }
+
+    .keyContiner{
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .container{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .container h3{
+        font-size: 25px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .whiteBox h3{
+        font-size: 25px;
+    }
+    .whiteBox p{
+        font-size: 20px;
+    }
+    .singleImage img{
+        width: 120px;
+    }
+    .secondBox{
+        justify-content: center;
+    }
+    .secondBox img{
+        padding-right: 5px;
+    }
+    .mainContent h1{
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    .mainContent p{
+        font-size: 35px;
+    }
+
+    .menu a {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+
+
+    
+}
+
+@media (min-width: 800px){
+    .mobile-menu li{
+        display: none;
+    }
+
+
+}

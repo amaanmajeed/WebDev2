@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Bulb</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function newfunc(){
+            document.getElementById('hello').innerText='Haha';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="firstContainer">
+
+            <h1>What can Javascript do?</h1>
+            <p>js can change elements on the webpage</p>
+            
+            <a href="javascript:;" onclick="document.getElementById('bulb').src='images/pic_bulbon.gif'">ON</a>
+            <img src="images/pic_bulboff.gif" id="bulb" alt="">
+            <a href="javascript:;" onclick="document.getElementById('bulb').src='images/pic_bulboff.gif'">OFF</a>
+            <br><br><br>
+
+            <p id="lucky">This is the lucky text</p>
+            <br>
+            
+            <a href="javascript:;" onclick="document.getElementById('lucky').style.fontSize='35px'">Bigger</a>
+            <a href="javascript:;" onclick="document.getElementById('lucky').style.fontSize='16px'">Smaller</a>
+            <a href="javascript:;" onclick="document.getElementById('lucky').style.display='none'">Hide</a>
+            <a href="javascript:;" onclick="document.getElementById('lucky').style.display='block'">Show</a>
+        </div>
+
+        <div class="secondContainer">
+            <h1>Demo Javascript in body</h1>
+            <p id="hello">A Paragraph</p>
+            <br><br>
+            <a href="javascript:;" onclick="newfunc()">Change</a>
+            <a href="javascript:;" onclick="document.getElementById('hello').innerText='A Paragraph'">Revert</a>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

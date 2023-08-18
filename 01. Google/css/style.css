@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #eff4fd;
+}
+nav{
+    display: inline-block;
+}
+
+.navbar .logo{
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+.logo img{
+    display: inline-block;
+    height: 100px;
+    margin: 0 15%;
+}
+.menu{
+    display: flex;
+    height: 100px;
+    padding-left: 290px;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: #38404a;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    margin: 30px 7px 7px 7px;
+    transition: 0.4s;
+}
+
+a:hover{
+    background-color: #cbcbcb;
+    color: #474a4d;
+}
+
+.leftimg{
+    float: left;
+    height: 100px;
+}
+.leftimg img{
+    height: 500px;
+    margin: 50px;
+}
+
+.righttext{ 
+    float: right;
+    width: 48%;
+    /* height: 100px; */
+    color: #38404a;
+    margin-top: 200px;
+    font-family:sans-serif;
+}
+.righttext::after{
+    clear: both;
+}
+
+.righttext h1{
+    font-size: 40px;
+    margin: 0 0 50px 0;
+}
+
+.righttext p{
+    width: 500px;
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.righttext a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffaf00;
+    padding: 20px;
+    margin-top: 30px;
+    width: 200px;
+    color: white;
+    border-radius: 100px;
+    font-weight: 800;
+    transition: 0.2s;
+}
+
+.righttext a:hover{
+    background-color: #e7e7e7;
+    color: #ffaf00;
+    border: 1px solid #ffaf00;
+    
+}

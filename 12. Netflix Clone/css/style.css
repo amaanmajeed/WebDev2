@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.home{
+    background-image: url(../images/netflix\ bg.jpg);
+    padding: 0;
+    box-shadow: 0px 10px 20px 0px black inset;
+}
+
+body{
+    background-color: black;
+}
+
+.blur{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding-bottom: 200px;
+}
+
+
+
+.navbar{
+    padding: 20px;
+}
+
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.innerbar{
+    display: flex;
+}
+
+.brand{
+    width: 90%;
+}
+
+.topsignin {
+    padding: 10px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.signin{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.brand img{
+    width: 150px;
+}
+
+.main{
+    color: white;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.main h1{
+    font-size: 49px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.upper{
+    font-size: 25px;
+}
+
+.lower{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main p{
+    padding: 10px;
+}
+
+.getstarted{
+    margin: 20px;
+    display: flex;
+}
+
+.textbox{
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    background-color: #0f0f0f;
+}
+
+.textbox::placeholder{
+    color: #b7b7b7;
+    font-size: 15px;
+}
+
+.signbtn{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    align-items: center;
+    margin-left: 10px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+hr{
+    border: 4px solid #232323;
+}
+
+/* TV Section */
+
+.sec{
+    /* background-color: black; */
+}
+
+.container{
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.containersp {
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.textContainer h1{
+    font-size: 50px;
+    margin: 0px 0px 20px 0px;
+}
+
+.textContainer p {
+    font-size: 25px;
+}
+
+.strangercontainer{
+    position: relative;
+    text-align: center;
+}
+
+.stranger{
+    position: absolute;
+    display: flex;
+    top: 70%; 
+    left: 26%;
+    padding: 0.35rem 0.85rem;
+    align-items: center;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+.stranegrtext{
+    padding-left: 20px;
+}
+
+#stranegrthings{
+    font-weight: 600;
+}
+
+#downloading{
+    color: #0071eb;
+    line-height: 20px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.downlogo{
+    width: 50px;
+    padding-left: 30px;
+}
+
+.shortimg{
+    width: 60px;
+}
+
+
+.newheight{
+    margin-left: 170px;
+    padding: 20px 0px 60px 0px;
+    width: 30%;
+}
+
+
+/* Kids Section */
+
+.kidsSection{
+    padding: 0;
+}
+
+.faqs{
+    display: flex;
+    flex-direction: column
+}
+
+.customheight{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.faqsh1{
+    text-align: center;
+    font-size: 42px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+.faqlist{
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
+
+.faqlist li{
+    background-color: #2d2d2d;
+    list-style: none;
+    padding: 20px;
+}
+
+.headerelements{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hiddentext {
+    margin-top: 2px;
+    font-size: 25px;
+    display: none;
+    white-space: pre-line;
+    /*  */
+}
+
+.headerelements:hover {
+    background-color: #4e4e4e;
+    cursor: pointer;
+}
+
+.faqlist li a{
+    text-decoration: none;
+    color: white;
+}
+
+.lefttext{
+    font-size: 30px;
+}
+
+.custom_cross{
+    font-size: 40px;
+    text-align: right;
+}
+
+/* Footer Section */
+
+
+.footer{
+    padding: 60px 45px;
+}
+
+.footer a{
+    color: #b3b3b3;
+    padding: 9px 10px;
+}
+
+/* .qs{
+    margin: 40px 0;
+} */
+
+.endremarks{
+    margin: 30px 0;
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.footer a, .column a{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ending{
+    margin: 10px;
+}
+
+#lang{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+
+.np{
+    color: #b3b3b3;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.imgContainer{
+    position: relative;
+}
+
+/* .tv{
+    z-index: 5;
+} */
+
+.imgContainer .videosection{
+        position: absolute;
+    top: 20%;
+    overflow: hidden;
+    left: 13%;
+    background: green;
+    width: 470px;
+    height: 270px;
+    z-index: -1;
+    content: '';
+
+} 
+
+section{
+    /* background-color: black; */
+}
+
+@media (max-width: 1280px){
+    .wrapper{
+        width: 95%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container h1,.container p{
+        text-align: center;
+    }
+
+    .container p{
+        font-size: 15px;
+    }
+
+    .container h1{
+        font-size: 20px;
+    }
+    .newheight{
+        margin-left: 0;
+        width: 80%;
+    }
+
+}
+
+@media (max-width: 1060px) {
+    
+}
+
+@media (max-width: 960px){
+    .signbtn{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .uppersign{
+        width: 15%;
+        justify-content: flex-end;
+    }
+
+    .brand{
+        width: 85%;
+    }
+    img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px){
+    .uppersign {
+        width: 20%;
+    }
+    .brand{
+        width: 80%;
+    }
+}

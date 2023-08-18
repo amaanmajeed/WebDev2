@@ -1,0 +1,91 @@
+@media only screen and (max-width: 920px) {
+    li a{
+    padding: 20px 5px;
+    margin: 20px 0;
+    }
+    .mainheader h1 {
+        font-size: 40px;
+    }
+    .mainheader{
+        width: 70%;
+        height: 60%;
+    }
+    .lefttext{
+        width: 100%;
+    }
+    .aboutheader{
+        margin: 20px 20px 10px 20px;
+    }
+    .lefttext h2{
+        font-size: 25px;
+        text-align: center;
+        line-height: normal;
+        padding-bottom: 30px;
+    }
+
+    .services{
+        padding: 0;
+    }
+    .righttext{
+        width: 100%;
+    }
+
+    .righttext p{
+        font-size: 15px;
+        line-height: normal;
+    }
+    .rightContent h1 {
+        margin-bottom: 30px;
+    }
+    .secondSection {
+        width: 95%;
+    }
+    .textheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    }
+    .service{
+    width: 90%;
+    }
+    .recentCard{
+        width: 90%;
+    }
+
+    /* Second Last Section */
+
+    .lastSection{
+        height: auto;
+    }
+
+    .btns{
+        justify-content: center;
+    }
+
+    .rightContent{
+        margin-right: 0px;
+        margin-top: 60px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightbtns{
+        display: block;
+    }
+
+    .link{
+        flex-direction: column;
+        align-items: center;
+    }
+    .leftContent{
+    width: 90%;
+    text-align: center;
+    }
+    .rightContent{
+        width: 90%;
+    }
+
+}

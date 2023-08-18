@@ -1,0 +1,37 @@
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+textarea{
+    display: block;
+}
+
+.add, .del{
+    background-color:rgb(51, 116, 239);
+    color: white;
+    text-decoration: none;
+    border: rgb(51, 116, 239) 2px solid;
+    border-radius:5px;
+    margin-top: 5px;
+}
+
+.add{
+    padding: 10px;
+}
+
+.del{
+    padding: 5px;
+}
+
+tr, table{
+    border-top: gray 1px solid;
+    /* border-bottom: gray 1px solid; */
+    padding: 10px 0;
+}
+
+
+th, td{
+    padding: 10px 10px;
+    text-align: left;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("sky.jpg");
+            background-size: cover;
+        }
+        .divStyle{
+            display: inline-block;
+            padding: 40px 60px;
+            background-color: white;
+            width: 217px;
+            margin: 18px;
+            text-align: center;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            height: 20px;
+        }
+        a{
+            display: inline-block;
+            padding: 40px 60px;
+            background-color: coral;
+            width: 217px;
+            margin: 18px;
+            text-align: center;
+            border: 2px solid white;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            height: 20px;
+        }
+        .newDiv{
+            background-color: white;
+            width: 85%;
+            border-radius: 4%;
+            border: 2px solid black;
+            outline: green solid 10px;
+            color: black;
+            display: block;
+        }
+
+        a:link{
+            color: black;
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        a:active{
+            color:red;
+        }
+        table{
+            width: 50%;
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+        
+        table, th, td{
+            color: white;
+            text-align: center;
+        }
+        td, th:nth-child(odd){
+            border-right: 2px solid #fff
+        }
+        .cldiv{
+            display: inline-block;
+            color: black;
+            padding: 40px 60px;
+            height: 20px;
+            width: 200px;
+            margin: 18px;
+            background-color: white;
+            text-align: center;
+            border: 2px solid gray;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="csscolors.html">This is a link</a>
+    <div class="divStyle" style="background-color: tomato;">
+        Tomato
+    </div>
+    <div class="divStyle" style="background-color: orange;">
+        Orange
+    </div>
+    <div class="divStyle" style="background-color: dodgerblue;">
+        DodgerBlue
+    </div>
+    <div class="divStyle" style="background-color: mediumseagreen;">
+        MediumSeaGreen
+    </div>
+
+    <div class="divStyle" style="background-color: gray;">
+        Gray
+    </div>
+
+    <div class="divStyle" style="background-color: slateblue;">
+        SlateBlue
+    </div>
+
+    <div class="divStyle" style="background-color: violet;">
+        Violet
+    </div>
+
+    <div class=" divStyle newDiv">
+        full
+    </div>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>Amaan</td>
+            <td>Majeed</td>
+        </tr>
+        <tr>
+            <td>Ahmed</td>
+            <td>Ali</td>
+        </tr>
+        <tr>
+            <td>Salman</td>
+            <td>Butt</td>
+        </tr>
+    </table>
+
+    <div class="cldiv">
+        clearfix
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:active{
+    background-color: #dfdfdf;
+}
+
+p{
+    margin-top: 40px;
+}
+
+.firstContainer, .secondContainer{
+    /* margin: 0 30px; */
+    padding: 0 30px;
+}
