@@ -476,8 +476,6 @@ i{
     margin: 0;
     padding: 0;
     display: block;
-    /* height: 200px; */
-    /* overflow: hidden; */
 }
 
 
@@ -505,7 +503,7 @@ i{
     align-items: center;
     border: 1px solid white;
     height: 80%;
-    width: 80%;
+    width: 90%;
     margin: 20px;
 }
 
